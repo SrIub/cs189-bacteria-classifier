@@ -4,14 +4,14 @@ Binary classification of E. coli vs. S. aureus microscopy images using ResNet18 
 
 ## Models
 
-`Final_Roboflow.py` | ResNet18 (pretrained) with the Roboflow dataset
-`Final_DIBaS.py` | ResNet18 (pretrained) with the Augmented DIBaS dataset
-`simple_model.py` | Custom 2-layer CNN with both datasets
+- `Final_Roboflow.py`: ResNet18 (pretrained) with the Roboflow dataset
+- `Final_DIBaS.py`: ResNet18 (pretrained) with the Augmented DIBaS dataset
+- `simple_model.py`: Custom 2-layer CNN with both datasets
 
 ## Datasets
 
 - Roboflow (`Microbes/`): 243 E. coli + 309 S. aureus images from a single consistent lab setting
-- DIBaS (not included, ~4GB): Originally 20 images/class, augmented to 520/class. Dataset no longer publically available?
+- DIBaS (not included, ~4GB): Originally 20 images/class, augmented to 520/class. Dataset no longer publically available.
 
 ## Setup
 

@@ -11,7 +11,7 @@ Binary classification of E. coli vs. S. aureus microscopy images using ResNet18 
 ## Datasets
 
 - Roboflow (`Microbes/`): 243 E. coli + 309 S. aureus images from a single consistent lab setting
-- DIBaS (not included, ~4GB): Originally 20 images/class, augmented to 520/class. Original dataset no longer publically available. Download with [DIBaS](https://drive.google.com/drive/folders/1TGokBwYZmpb2lw_ukeRWrR7Q49MNeWdO?usp=drive_link), then move it into the project root:
+- DIBaS (not included, ~4GB): Originally 20 images/class, augmented to 520/class. Original dataset no longer publically available. Download [DIBaS](https://drive.google.com/drive/folders/1TGokBwYZmpb2lw_ukeRWrR7Q49MNeWdO?usp=drive_link), then move it into the project root:
   ```bash
   mv DIBaS/ cs189-bacteria-classifier/
   ```

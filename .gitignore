@@ -2,10 +2,6 @@
 DIBaS/
 OG_DIBaS/
 
-# Model weights
-*.pth
-*.pt
-
 # Python cache
 __pycache__/
 *.pyc

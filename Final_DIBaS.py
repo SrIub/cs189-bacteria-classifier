@@ -259,7 +259,7 @@ def plot_confusion_matrix(y_true, y_pred, class_names, title="Confusion Matrix")
     plt.show()
 
 def main():
-    dataset = preprocess_data("DIBas")
+    #dataset = preprocess_data("DIBas")
     """This line of code is for training with cross validation (basically gets 100% training and testing accuracy for each fold)"""
     #k_fold_cross_validation(dataset)
 

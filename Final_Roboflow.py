@@ -242,7 +242,7 @@ def plot_confusion_matrix(y_true, y_pred, class_names, title="Confusion Matrix",
     plt.show()
 
 def main():
-    dataset = preprocess_data("Microbes")
+    #dataset = preprocess_data("Microbes")
 
     #Run this two lines of code in order to evaluate this ResNet18 Roboflow model on the DIBaS dataset
     y_true_1, y_pred_1 = real_evaluation("DIBaS/Augmented_Staphylococcus/","Staphylococcus")
